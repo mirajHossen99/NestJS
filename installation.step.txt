@@ -1,12 +1,29 @@
 $ npm i -g @nestjs/cli
 $ nest new project-name
 
----- install steps ---
-   nest new nestjs-lms
+------- install steps with Packages ------
+    npm i -g @nestjs/cli
+    nest new nestjs-lms
+    npm install bcrypt
+    npm add -D @types/bcrypt
+    npm i @nestjs/mongoose mongoose
+    npm i --save @nestjs/config
+    npm install --save @nestjs/jwt
+    
 
+------ Create module -----
+    nest g module auth
+    nest g module user
 
----- project run -----
-   npm run start
+------ Create controller -----
+    nest g controller auth
+
+------ Create service -----
+    nest g service auth
+    nest g service user
+
+------ project run ------
+    npm run start
 
 
 

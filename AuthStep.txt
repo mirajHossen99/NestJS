@@ -1,0 +1,9 @@
+
+
+Logic for user Register:
+  
+  1. Check if email already exists
+  2. hash the password
+  3. store the user into db
+  4. generate jwt token
+  5. send token in response
