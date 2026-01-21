@@ -1,0 +1,17 @@
+$ npm i -g @nestjs/cli
+$ nest new project-name
+
+---- install steps ---
+   nest new nestjs-lms
+
+
+---- project run -----
+   npm run start
+
+
+
+check version--
+    nest -v
+    nest --help
+
+
