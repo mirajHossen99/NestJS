@@ -30,4 +30,14 @@ export class UserService {
       throw error;
     }
   }
+
+  async getUserById(id: string) {
+    return await this.userModel.findById(id);
+    // return await this.userModel.findById(id).select('-password');
+  }
+
+  async getUserByEmail(email: string) {
+    return await this.userModel.findOne({ email: email });
+    // return await this.userModel.findById(id).select('-password');
+  }
 }
