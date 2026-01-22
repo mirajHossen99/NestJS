@@ -20,7 +20,7 @@ export class Course {
   level: CourseLevel;
 
   @Prop({ required: true })
-  price: string;
+  price: number;
 }
 
 export const CourseSchema = SchemaFactory.createForClass(Course);
