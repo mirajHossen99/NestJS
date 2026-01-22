@@ -9,6 +9,7 @@ $ nest new project-name
     npm i @nestjs/mongoose mongoose
     npm i --save @nestjs/config
     npm install --save @nestjs/jwt
+    npm i --save class-validator class-transformer
     
 
 ------ Create module -----
@@ -21,6 +22,9 @@ $ nest new project-name
 ------ Create service -----
     nest g service auth
     nest g service user
+
+------ Create resource -----
+    nest g resource course
 
 ------ project run ------
     npm run start
