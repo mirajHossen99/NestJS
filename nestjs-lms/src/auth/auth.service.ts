@@ -33,6 +33,5 @@ export class AuthService {
 
   async signIn(email: string, password: string) {
     const user = await this.userService.getUserByEmail(email);
-    
   }
 }
